@@ -12,9 +12,7 @@ void setup() {
   Enes100.print(Enes100.destination.x);
   Enes100.print(", ");
   Enes100.print(Enes100.destination.y);
-  Enes100.println(")");
-
-	
+  Enes100.println(")");	
 }
 
 void loop() {
@@ -31,8 +29,5 @@ void loop() {
     else {
         // OSV's location was not found
         Enes100.println("Error 404! OSV Not Found!");
-    }
-	
-	
-	
+    }	
 }
